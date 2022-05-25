@@ -9,3 +9,4 @@ const products = [
     {id: 226912, name: "Desk lamp", description: "Because who wants a dark office?", price: 6000}
 ]
 
+export default products;
