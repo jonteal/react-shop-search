@@ -1,12 +1,12 @@
 import Product from "../Product/Product";
+import './productList.css';
 
-const Home = () => {
+const ProductList = () => {
     return (
         <div>
-            
             <Product />
         </div>
     );
 }
 
-export default Home;
+export default ProductList;
