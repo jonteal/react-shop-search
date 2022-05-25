@@ -1,4 +1,4 @@
-const products = [
+const productData = [
     {id: 198355, name: "Fancy pen", description: "Write in red or blue!", price: 1000},
     {id: 168031, name: "Bad pen", description: "Barely works, not worth the money", price: 2000},
     {id: 296110, name: "Fabric softener", description: "From the other leading brand ", price: 1850},  
@@ -9,4 +9,4 @@ const products = [
     {id: 226912, name: "Desk lamp", description: "Because who wants a dark office?", price: 6000}
 ]
 
-export default products;
+export default productData;
