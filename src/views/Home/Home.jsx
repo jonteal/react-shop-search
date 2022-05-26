@@ -1,14 +1,20 @@
+import Header from "../../components/Header/Header";
 import ProductList from "../../components/ProductList/ProductList";
-import SearchBar from "../../components/SearchBar/SearchBar";
 
 const Home = () => {
     return (
-        <div>
-            <h1>Search for your products here!</h1>
+        <div className="home-parent-container">
 
-            <SearchBar />
+            <div>
+                <Header />
+            </div>
 
-            <ProductList />
+            <div>
+                <ProductList />
+            </div>
+
+
+            
         </div>
     );
 }

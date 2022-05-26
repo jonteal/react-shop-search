@@ -1,16 +1,18 @@
+import './product.css';
+
 const Product = (props) => {
 
-    console.log(props);
+    // console.log(props);
     return (
-        <div>
-            <div>
-                {props.name}
+        <div className="product-body">
+            <div className="single-product-name">
+                <p>{props.name}</p>
             </div>
-            <div>
-                {props.description}
+            <div className="single-product-description">
+                <p>{props.description}</p>
             </div>
-            <div>
-                {props.price}
+            <div className="single-product-price">
+                <p>$ {props.price}</p>
             </div>
         </div>
     );
