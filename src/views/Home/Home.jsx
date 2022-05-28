@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import apiData from '../../components/api';
+import './home.css';
 
 
 const Home = () => {
@@ -58,7 +59,7 @@ const Home = () => {
 
                     .map((product) => (
                         <li key={product.id}>
-                            <div>
+                            <div className="product">
                                 <p>{product.name}</p>
                                 <p>{product.description}</p>
                                 <p>{convertCurrency(product.price)}</p>
