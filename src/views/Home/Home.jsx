@@ -26,6 +26,11 @@ const Home = () => {
         return converted
     }
 
+    const handleRefresh = (e) => {
+        // e.preventDefault();
+        setSearchTerm('')
+    }
+
 
 
     return (
@@ -35,10 +40,13 @@ const Home = () => {
 
             <input 
                 type="text" 
+                value={searchTerm}
                 placeholder="Search..."
                 onChange={(event) => setSearchTerm(event.target.value)}
                 className='searchBar'
             />
+
+            <button onClick={handleRefresh}>Clear</button>
 
             <ul>
                 {products
